@@ -1,0 +1,17 @@
+@import './colors';
+
+body {
+    background-color: $body-background-color;
+}
+.app-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.container {
+    background-color: $element-background-color;
+}
+.title {
+    padding: 10px;
+    font-size: 1.5rem;
+}
