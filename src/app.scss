@@ -6,12 +6,32 @@ body {
 .app-container {
     display: flex;
     flex-direction: column;
-    gap: 10px;
 }
 .container {
     background-color: $element-background-color;
 }
+.flex {
+    display: flex;
+}
+.gap10 {
+    gap: 10px;
+}
+.row {
+    flex-direction: row;
+}
+.col {
+    flex-direction: column;
+}
+.flex-even > * {
+    flex-basis: 100%;
+}
 .title {
     padding: 10px;
     font-size: 1.5rem;
+}
+.pointer {
+    cursor: pointer;
+}
+.arrow-down {
+    font-size: 2rem;
 }
